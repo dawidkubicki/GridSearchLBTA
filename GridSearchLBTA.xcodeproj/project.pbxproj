@@ -12,6 +12,8 @@
 		12959A2A2569319100656E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12959A292569319100656E0B /* Assets.xcassets */; };
 		12959A2D2569319100656E0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12959A2C2569319100656E0B /* Preview Assets.xcassets */; };
 		12959A37256965AB00656E0B /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 12959A36256965AB00656E0B /* KingfisherSwiftUI */; };
+		12959A3A2569719D00656E0B /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12959A392569719D00656E0B /* GridViewModel.swift */; };
+		12959A3E256971FB00656E0B /* RSSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12959A3D256971FB00656E0B /* RSSData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		12959A292569319100656E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12959A2C2569319100656E0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12959A2E2569319100656E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12959A392569719D00656E0B /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		12959A3D256971FB00656E0B /* RSSData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				12959A252569319000656E0B /* GridSearchLBTAApp.swift */,
+				12959A3D256971FB00656E0B /* RSSData.swift */,
+				12959A392569719D00656E0B /* GridViewModel.swift */,
 				12959A272569319000656E0B /* ContentView.swift */,
 				12959A292569319100656E0B /* Assets.xcassets */,
 				12959A2E2569319100656E0B /* Info.plist */,
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12959A3A2569719D00656E0B /* GridViewModel.swift in Sources */,
 				12959A282569319000656E0B /* ContentView.swift in Sources */,
+				12959A3E256971FB00656E0B /* RSSData.swift in Sources */,
 				12959A262569319000656E0B /* GridSearchLBTAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
